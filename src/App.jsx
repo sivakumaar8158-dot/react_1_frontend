@@ -1,12 +1,15 @@
-import React from 'react'
 import './App.css'
+import NavBar from './Components/NavBar'
 
-const App = () => {
-  return (
+const App =()=> {
+  return(
     <>
-    <div className='bg-emerald-600 p-48 '>Welcome!!!</div>
+    <div>
+      <NavBar/>
+    </div>
     </>
   )
-}
 
-export default App;
+
+}
+export default App
